@@ -1,6 +1,9 @@
 .container-1 {
     display: flex;
-    justify-content: space-between;
+    
+  
+
+    
 
     
 
@@ -10,24 +13,76 @@
          border: 2px #ccc solid;
          padding: 10px;
          margin: 20px;
+         justify-content: center;
+         
+
+
+         
+         
          
 
 }
 
 .box-1 {
     flex: 1;
-    height: 300px;
+    text-align: center;
+    background-color: chartreuse;
+    
     
 
 }
 
 .box-2 {
      flex: 2;
-     height: 600px;
+     text-align: center;
+     background-color: coral;
+    
+
      
 }
 
 .box-3 {
-      flex: 1;
-      height: 300px;
+     flex: 1;
+     text-align: center;
+     background-color: darkblue;
+    
+
+}
+.container-2 {
+    display: flex;
+    align-items: flex-end;
+    
+}
+
+.container-2 div { 
+    border: 2px #ccc solid;
+    padding: 10px;
+    margin: 20px;
+    justify-content: center;
+}
+
+.box-4 {
+    flex: 1;
+    text-align: center;
+    background-color: chartreuse;
+    
+    
+
+}
+
+.box-5 {
+     flex: 2;
+     text-align: center;
+     background-color: coral;
+    
+
+     
+}
+
+.box-6 {
+     flex: 1;
+     text-align: center;
+     background-color: darkblue;
+    
+
 }
