@@ -1,0 +1,33 @@
+.container-1 {
+    display: flex;
+    justify-content: space-between;
+
+    
+
+}
+
+.container-1 div { 
+         border: 2px #ccc solid;
+         padding: 10px;
+         margin: 20px;
+         
+
+}
+
+.box-1 {
+    flex: 1;
+    height: 300px;
+    
+
+}
+
+.box-2 {
+     flex: 2;
+     height: 600px;
+     
+}
+
+.box-3 {
+      flex: 1;
+      height: 300px;
+}
